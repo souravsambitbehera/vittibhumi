@@ -46,7 +46,7 @@ const HeaderComponent = () => {
       <div className="md:flex justify-between py-4 md:px-10 px-7" style={headerStyle}>
         <div className="font-bold text-2xl cursor-pointer flex font-[Poppins] text-gray-800">
           <span className="text-3xl text-indigo-600 mr-1 pt-2">
-            <img src="LOGO (1).png" alt="" />
+            <Link to="/"><img src="LOGO (1).png" alt="" /></Link>
           </span>
         </div>
 

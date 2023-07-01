@@ -10,6 +10,8 @@ import Project from "./Pages/Project"
 import Home from './Pages/Home';
 import Project1 from './Components/project1';
 import Project2 from './Components/project2';
+import ProjectAurobindo from './Components/ProjectAurobindo';
+import ProjectBapuji from './Components/ProjectBapuji';
 
 const App = () => {
   return (
@@ -57,6 +59,14 @@ const router = createBrowserRouter([
           {
             path:"/project2",
             element:<Project2 />
+          },
+          {
+            path:"/projectaurobindo",
+            element:<ProjectAurobindo />
+          },
+          {
+            path:"/projectbapuji",
+            element:<ProjectBapuji />
           },
         
         

@@ -23,19 +23,19 @@ const CardFunctionality = () => {
       id: 1,
       imageSrc: 'project1/Aurobindo-Residency-Front.png',
       title: 'AUROBINDO-RESIDENCY',
-      location: 'project1',
+      location: 'projectaurobindo',
     },
     {
       id: 2,
       imageSrc: 'project2/Bapuji-Heoght-CoverImage.jpeg.jpg',
       title: 'BAPUJI-HEIGHT',
-      location: 'project2',
+      location: 'projectbapuji',
     },
     {
       id: 3,
       imageSrc: 'project2/Bapuji-Heoght-CoverImage.jpeg.jpg',
       title: 'BAPUJI-HEIGHT',
-      location: 'project1',
+      location: 'projectbapuji',
     },
     
    
