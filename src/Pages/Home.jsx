@@ -9,7 +9,6 @@ const Home = () => {
   return (
     <>
       <AboutUsComponent />
-
       <CardFunctionality />
       <ContactComponent/>
     </>

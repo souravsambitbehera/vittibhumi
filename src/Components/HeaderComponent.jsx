@@ -22,11 +22,13 @@ const HeaderComponent = () => {
 
   const headerStyle = {
     backgroundImage: "url('aboutImage.png')",
-    backgroundSize: 'cover',
+    backgroundSize: '100% 60vh',
     backgroundPosition: 'center',
-    height: '100vh',
+    backgroundRepeat: 'no-repeat',
+    height: '60vh',
     width: '100%',
   };
+  
 
   useEffect(() => {
     const handleResize = () => {
@@ -73,7 +75,9 @@ const HeaderComponent = () => {
               </Link>
             </li>
           ))}
+
         </ul>
+
       </div>
     </div>
   );

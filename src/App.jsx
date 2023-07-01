@@ -12,11 +12,13 @@ import Project1 from './Components/project1';
 import Project2 from './Components/project2';
 import ProjectAurobindo from './Components/ProjectAurobindo';
 import ProjectBapuji from './Components/ProjectBapuji';
+import StickySocialIcon from './Components/StickySocialIcon';
 
 const App = () => {
   return (
     <>
     <HeaderComponent />
+    <StickySocialIcon />
       <Outlet />
       <FooterComponent />
     </>
@@ -34,38 +36,38 @@ const router = createBrowserRouter([
             element:<Home />
         },
         {
-          path:"/about",
+          path:"about",
           element:<AboutUs />
         },
         {
-          path:"/contact",
+          path:"contact",
           element:<Contact />
         },
         {
-          path:"/gallery",
+          path:"gallery",
           element:<Gallery />
         },
         
         {
-          path:"/project",
+          path:"project",
           element:<Project />
         },
         
           {
-            path:"/project1",
+            path:"project1",
             element:<Project1 />
           },
 
           {
-            path:"/project2",
+            path:"project2",
             element:<Project2 />
           },
           {
-            path:"/projectaurobindo",
+            path:"projectaurobindo",
             element:<ProjectAurobindo />
           },
           {
-            path:"/projectbapuji",
+            path:"projectbapuji",
             element:<ProjectBapuji />
           },
         

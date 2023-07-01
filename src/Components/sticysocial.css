@@ -1,0 +1,39 @@
+/* sticysocial.css */
+
+.sticky-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999; /* Set a high z-index value to ensure it appears above other elements */
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  }
+  .social-icon:hover {
+    color: #ff0000; /* Customize the color for the hover effect */
+  }
+  .phone-number {
+    margin-right: 10px;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+  }
+  

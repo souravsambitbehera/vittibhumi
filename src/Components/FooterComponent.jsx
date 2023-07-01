@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const FooterComponent = () => {
   return (
     <>
-    <footer className="bg-[#FFD8E3] flex flex-col md:flex-row justify-evenly px-8 md:px-20 py-8 text-[#37211E]">
+    <footer className="bg-[#FFD8E3] flex flex-col md:flex-row justify-between px-8 md:px-20 py-8 text-[#37211E]">
       <div className="md:w-1/4">
         <img src="LOGO (1).png" width="258px" height="61px" className="" alt="" />
         <p className="text-base leading-normal py-6">
