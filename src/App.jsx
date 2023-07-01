@@ -8,6 +8,8 @@ import Contact from "./Pages/Contact"
 import Gallery from "./Pages/Gallery"
 import Project from "./Pages/Project"
 import Home from './Pages/Home';
+import Project1 from './Components/project1';
+import Project2 from './Components/project2';
 
 const App = () => {
   return (
@@ -42,10 +44,21 @@ const router = createBrowserRouter([
           element:<Gallery />
         },
         
+        {
+          path:"/project",
+          element:<Project />
+        },
+        
           {
-            path:"/project",
-            element:<Project />
+            path:"/project1",
+            element:<Project1 />
           },
+
+          {
+            path:"/project2",
+            element:<Project2 />
+          },
+        
         
   
       ]

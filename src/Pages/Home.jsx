@@ -1,11 +1,12 @@
 import React from 'react'
+import CardFunctionality from '../Components/OurProjectComponents'
 
 
 
 const Home = () => {
   return (
     <>
-      Home
+      <CardFunctionality />
     </>
   )
 }
